@@ -1,0 +1,17 @@
+Commande strace
+
+strace affiche uniquement les appels systèmes (ça doit vous rappeler quelque chose). En plus de ça, elle est portable sur n'importe quelle cible.
+
+Question : donner quelques exemples d'appels système.
+
+On propose de tester la commande strace sur lsmod.
+
+Question : à quoi sert lsmod ?
+
+
+Question : utiliser strace sur cette commande. Est-ce que le résultat vous semble cohérent ?
+
+
+Question : comment configurer la commande strace pour configurer uniquement certains appels systèmes ? Tester avec un puis plusieurs appels.
+
+strace a une autre utilité : ça peut permettre de résoudre (ou plutôt détecter) les problèmes lors de chargement dynamique d'une bibliothèque partagée.
